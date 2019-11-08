@@ -1,1 +1,14 @@
 // Mixins in here
+.display-flex (@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+.custom-btn(@bg-color, @size, @font-color){
+    background-color: @bg-color;
+    width: @size;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 15px;
+    color:@font-color;
+}
